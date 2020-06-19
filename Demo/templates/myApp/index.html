@@ -1,0 +1,21 @@
+
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+{#    <link rel="stylesheet" type="text/css" href="{% static 'myApp/css/style.css' %}">#}
+    <link rel="stylesheet" type="text/css" href="123/static/myApp/css/style.css">
+</head>
+<body>
+<h1>{{ num }}</h1>
+<h1>{{ stu.sname }}</h1>
+<h1>{{ stu.Getname }}</h1>
+
+{% if num %}
+    <h1>Abonis is a nice man</h1>
+{% endif %}
+
+</body>
+</html>
